@@ -10,5 +10,3 @@ def reverse_each_word(string)
   s.collect do |x|
   end
 end
-
-
