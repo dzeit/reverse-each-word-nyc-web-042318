@@ -1,3 +1,4 @@
+require 'pry'
 # def reverse_each_word(string)
 #   s = string.split(" ")
 #   new_array = []
@@ -5,12 +6,11 @@
 #     new_array << x.reverse
 #   end
 #   new_array.join(" ")
-# end
-
+# end 
 def reverse_each_word(string)
   s = string.split(" ")
-  backwards_sentence = s.collect do |word|
+  backward_sentence = s.collect do |word|
     word.reverse
   end
-  backwards_sentence.join(" ")
+  binding.pry 
 end
